@@ -1,16 +1,18 @@
 {
-  "name": "generator-jhipster-elasticsearch-reindexer",
+  "name": "generator-jhipster-elasticsearch-reindexer-2",
   "version": "1.2.1",
   "description": "Generates a service that reindexes all database rows for each of your entities",
   "keywords": [
     "yeoman-generator",
-    "jhipster-module"
+    "jhipster-module",
+    "jhipster5",
+    "jhipster6"
   ],
-  "homepage": "https://github.com/geraldhumphries/generator-jhipster-elasticsearch-reindexer",
+  "homepage": "https://github.com/gabrui/generator-jhipster-elasticsearch-reindexer",
   "author": {
     "name": "Gerald Humphries",
     "email": "geraldhumphries@gmail.com",
-    "url": "geraldhumphries.com"
+    "url": "https://geraldhumphries.com"
   },
   "contributors": [
     "Alexander Volf <job-github@wolf-a.ru> (https://www.wolf-a.ru/)",
@@ -22,7 +24,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geraldhumphries/generator-jhipster-elasticsearch-reindexer.git"
+    "url": "git+https://github.com/gabrui/generator-jhipster-elasticsearch-reindexer.git"
   },
   "dependencies": {
     "chalk": "1.1.3",
@@ -59,7 +61,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/geraldhumphries/generator-jhipster-elasticsearch-reindexer/issues",
+    "url": "https://github.com/gabrui/generator-jhipster-elasticsearch-reindexer/issues",
     "email": "geraldhumphries@gmail.com"
   }
 }
