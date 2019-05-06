@@ -274,7 +274,7 @@ var functions = {
 
     registering: function () {
       try {
-        this.registerModule('generator-jhipster-elasticsearch-reindexer', 'entity', 'post', 'app', 'Generate a service for reindexing all database rows for each of your entities');
+        this.registerModule('generator-jhipster-elasticsearch-reindexer-2', 'entity', 'post', 'app', 'Generate a service for reindexing all database rows for each of your entities');
       } catch (err) {
         this.log(chalk.red.bold('WARN!') + ' Could not register as a jhipster entity post creation hook...\n');
       }

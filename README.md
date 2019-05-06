@@ -1,4 +1,4 @@
-# generator-jhipster-elasticsearch-reindexer
+# generator-jhipster-elasticsearch-reindexer-2
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > JHipster module, Generate a service for reindexing all database rows for each of your entities
 
@@ -23,12 +23,12 @@ The generator will run if you haven't created any entities, but only the User en
 To install this module:
 
 ```bash
-npm install -g generator-jhipster-elasticsearch-reindexer
+npm install -g generator-jhipster-elasticsearch-reindexer-2
 ```
 
 To update this module:
 ```bash
-npm update -g generator-jhipster-elasticsearch-reindexer
+npm update -g generator-jhipster-elasticsearch-reindexer-2
 ```
 
 # Usage
@@ -70,8 +70,8 @@ This request can also be sent through Swagger.
 
 Apache-2.0 © [Gerald Humphries](mailto:geraldhumphries@gmail.com)
 
-[npm-image]: https://img.shields.io/npm/v/generator-jhipster-elasticsearch-reindexer.svg
-[npm-url]: https://npmjs.org/package/generator-jhipster-elasticsearch-reindexer
+[npm-image]: https://img.shields.io/npm/v/generator-jhipster-elasticsearch-reindexer-2.svg
+[npm-url]: https://npmjs.org/package/generator-jhipster-elasticsearch-reindexer-2
 [travis-image]: https://travis-ci.org/geraldhumphries/generator-jhipster-elasticsearch-reindexer.svg?branch=master
 [travis-url]: https://travis-ci.org/geraldhumphries/generator-jhipster-elasticsearch-reindexer
 [daviddm-image]: https://david-dm.org/geraldhumphries/generator-jhipster-elasticsearch-reindexer.svg?theme=shields.io
