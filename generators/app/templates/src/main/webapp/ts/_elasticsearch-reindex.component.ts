@@ -39,7 +39,7 @@ export class ElasticsearchReindexComponent {
         ];
     }
 
-    doReindex() {
+    doReindex() : void{
         if (this.reindexType === 'all') {
             this.showConfirm();
         } else {
@@ -47,11 +47,11 @@ export class ElasticsearchReindexComponent {
         }
     }
 
-    showConfirm() {
+    showConfirm() : void{
         this.modalService.open(ElasticsearchReindexModalComponent);
     }
 
-    showConfirmSelected() {
+    showConfirmSelected() : void{
         const activeModal = this.modalService.open(ElasticsearchReindexSelectedModalComponent);
         const checks = this.checks;
         const reindexList = this.entities.filter(function(name) {
